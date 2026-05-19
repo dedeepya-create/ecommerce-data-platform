@@ -13,6 +13,9 @@ BUCKET = config.get('aws','aws_bucket_name')
 REGION = config.get('aws','aws_region')
 print (AWS_ACCESS_KEY_ID )
 print (AWS_SECRET_ACCESS_KEY)
+print (BUCKET)
+print (REGION)
+
 #path settings
 
 INPUT_PATH = config.get('file_path','input_path')
